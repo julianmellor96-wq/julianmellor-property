@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enquire | Julian Mellor</title>
+  <meta name="description" content="Separate enquiry routes for landlords and applicants, designed to keep communication calm, private and properly structured." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html"><span class="brand-mark">JM</span><span><strong>Julian Mellor</strong><small>Private Property Management & Lettings</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav">
+        <a href="lettings.html">Lettings</a>
+        <a href="landlords.html">Landlords</a>
+        <a href="management.html">Management</a>
+        <a href="about.html">About</a>
+        <a class="active nav-cta" href="enquire.html">Enquire</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero reveal">
+        <p class="eyebrow">Enquire</p>
+        <h1>Separate routes for landlords and applicants.</h1>
+        <p class="lead">The landlord and applicant experience remain distinct. One route is built around private instruction and asset oversight; the other around thoughtful registration and suitable introductions.</p>
+      </section>
+
+      <section class="section split-section align-start reveal">
+        <div id="landlord-enquiry" class="form-card">
+          <p class="eyebrow">Landlord enquiry</p>
+          <h2>Private discussion for owners and instructions.</h2>
+          <form>
+            <label>Full name<input type="text" placeholder="Your name" /></label>
+            <label>Email address<input type="email" placeholder="you@example.com" /></label>
+            <label>Telephone number<input type="tel" placeholder="Preferred contact number" /></label>
+            <label>Property location<input type="text" placeholder="Town, area or address" /></label>
+            <label>Property type<input type="text" placeholder="Apartment, townhouse, family home..." /></label>
+            <label>Service required
+              <select>
+                <option>Lettings</option>
+                <option>Full management</option>
+                <option>Discreet instruction</option>
+                <option>Management review</option>
+              </select>
+            </label>
+            <label>Tell us about the property and your requirements<textarea rows="5" placeholder="A brief outline of the property, instruction type and what matters most to you."></textarea></label>
+            <button class="button button-primary" type="submit">Submit landlord enquiry</button>
+          </form>
+        </div>
+
+        <div id="applicant-enquiry" class="form-card">
+          <p class="eyebrow">Applicant registration</p>
+          <h2>Tell us what you are looking for.</h2>
+          <form>
+            <label>Full name<input type="text" placeholder="Your name" /></label>
+            <label>Email address<input type="email" placeholder="you@example.com" /></label>
+            <label>Telephone number<input type="tel" placeholder="Preferred contact number" /></label>
+            <label>Preferred locations<input type="text" placeholder="Areas, towns or postcodes" /></label>
+            <label>Property sought<input type="text" placeholder="Apartment, townhouse, family home..." /></label>
+            <label>Bedrooms required<input type="text" placeholder="For example 2, 3, 4+" /></label>
+            <label>Ideal move timing<input type="text" placeholder="Immediately, next month, within 6 months..." /></label>
+            <label>What price point are you considering for the right property?<input type="text" placeholder="Your considered level" /></label>
+            <label>Additional requirements<textarea rows="5" placeholder="Tell us about the way you want to live, any specific requirements and what would make a property right for you."></textarea></label>
+            <button class="button button-primary" type="submit">Register requirements</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div><strong>Julian Mellor</strong><p>Private Property Management & Lettings</p></div>
+      <div><a href="mailto:hello@julianmellor.co.uk">hello@julianmellor.co.uk</a><p>Separate routes. Calm handling. Direct communication.</p></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
