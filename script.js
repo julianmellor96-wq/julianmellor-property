@@ -1,16 +1,10 @@
-const menuToggle = document.querySelector('.menu-toggle');
+
+const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
-if (menuToggle && nav) {
-  menuToggle.addEventListener('click', () => nav.classList.toggle('open'));
-}
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
   });
-}, { threshold: 0.14 });
-
-document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+}

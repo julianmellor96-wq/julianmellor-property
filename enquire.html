@@ -3,78 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enquire | Julian Mellor</title>
-  <meta name="description" content="Separate enquiry routes for landlords and applicants, designed to keep communication calm, private and properly structured." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <title>Enquire | Julian Mellor</title>
+  <meta name="description" content="Make a private enquiry with Julian Mellor." />
 </head>
 <body>
   <div class="site-shell">
     <header class="topbar">
-      <a class="brand" href="index.html"><span class="brand-mark">JM</span><span><strong>Julian Mellor</strong><small>Private Property Management & Lettings</small></span></a>
-      <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
-      <nav class="nav">
-        <a href="lettings.html">Lettings</a>
-        <a href="landlords.html">Landlords</a>
-        <a href="management.html">Management</a>
-        <a href="about.html">About</a>
-        <a class="active nav-cta" href="enquire.html">Enquire</a>
+      <a href="index.html" class="brand" aria-label="Julian Mellor home">
+        <span class="brand-mark">
+          <strong>Julian Mellor</strong>
+          <small>Private Property Management &amp; Lettings</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav">
+              <a href="index.html" >Home</a>
+        <a href="landlords.html" >Landlords</a>
+        <a href="lettings.html" >Lettings</a>
+        <a href="management.html" >Management</a>
+        <a href="about.html" >About</a>
+        <a href="enquire.html" class="nav-cta">Enquire</a>
       </nav>
     </header>
     <main>
-      <section class="page-hero reveal">
-        <p class="eyebrow">Enquire</p>
-        <h1>Separate routes for landlords and applicants.</h1>
-        <p class="lead">The landlord and applicant experience remain distinct. One route is built around private instruction and asset oversight; the other around thoughtful registration and suitable introductions.</p>
-      </section>
-
-      <section class="section split-section align-start reveal">
-        <div id="landlord-enquiry" class="form-card">
-          <p class="eyebrow">Landlord enquiry</p>
-          <h2>Private discussion for owners and instructions.</h2>
-          <form>
-            <label>Full name<input type="text" placeholder="Your name" /></label>
-            <label>Email address<input type="email" placeholder="you@example.com" /></label>
-            <label>Telephone number<input type="tel" placeholder="Preferred contact number" /></label>
-            <label>Property location<input type="text" placeholder="Town, area or address" /></label>
-            <label>Property type<input type="text" placeholder="Apartment, townhouse, family home..." /></label>
-            <label>Service required
-              <select>
-                <option>Lettings</option>
-                <option>Full management</option>
-                <option>Discreet instruction</option>
-                <option>Management review</option>
-              </select>
-            </label>
-            <label>Tell us about the property and your requirements<textarea rows="5" placeholder="A brief outline of the property, instruction type and what matters most to you."></textarea></label>
-            <button class="button button-primary" type="submit">Submit landlord enquiry</button>
-          </form>
-        </div>
-
-        <div id="applicant-enquiry" class="form-card">
-          <p class="eyebrow">Applicant registration</p>
-          <h2>Tell us what you are looking for.</h2>
-          <form>
-            <label>Full name<input type="text" placeholder="Your name" /></label>
-            <label>Email address<input type="email" placeholder="you@example.com" /></label>
-            <label>Telephone number<input type="tel" placeholder="Preferred contact number" /></label>
-            <label>Preferred locations<input type="text" placeholder="Areas, towns or postcodes" /></label>
-            <label>Property sought<input type="text" placeholder="Apartment, townhouse, family home..." /></label>
-            <label>Bedrooms required<input type="text" placeholder="For example 2, 3, 4+" /></label>
-            <label>Ideal move timing<input type="text" placeholder="Immediately, next month, within 6 months..." /></label>
-            <label>What price point are you considering for the right property?<input type="text" placeholder="Your considered level" /></label>
-            <label>Additional requirements<textarea rows="5" placeholder="Tell us about the way you want to live, any specific requirements and what would make a property right for you."></textarea></label>
-            <button class="button button-primary" type="submit">Register requirements</button>
-          </form>
+      <section class="page-hero">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light">Private Enquiries</p>
+          <h1>Start the conversation simply and in confidence.</h1>
+          <p class="lead">For landlords seeking a more considered service for a well-kept London home.</p>
         </div>
       </section>
+      
+<section class="section">
+  <div class="contact-grid">
+    <div class="contact-panel">
+      <p class="eyebrow">Enquiries</p>
+      <h2>Handled personally and in confidence.</h2>
+      <p>If you have a well-kept London property and would like to discuss lettings, management or a more tailored level of support, please get in touch.</p>
+      <p>Email and telephone details can be added here once you are ready to publish them. For now, this page gives you a calm, polished holding point for incoming enquiries.</p>
+    </div>
+    <div class="contact-panel">
+      <h3>Suggested details to include</h3>
+      <ul class="list-clean">
+        <li>Property location</li>
+        <li>Type of support required</li>
+        <li>Timescale</li>
+        <li>Preferred contact details</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="section statement-section">
+  <div class="statement-wrap">
+    <p class="eyebrow">Next step</p>
+    <h2>A short, clear conversation is often the best place to begin.</h2>
+    <p>You do not need to over-explain everything at the start. A brief enquiry is enough to open the conversation properly.</p>
+  </div>
+</section>
+
     </main>
     <footer class="footer">
-      <div><strong>Julian Mellor</strong><p>Private Property Management & Lettings</p></div>
-      <div><a href="mailto:hello@julianmellor.co.uk">hello@julianmellor.co.uk</a><p>Separate routes. Calm handling. Direct communication.</p></div>
+      <div>
+        <strong>Julian Mellor</strong>
+        <small>Private Property Management &amp; Lettings</small>
+        <p>A more selective approach to lettings and management for well-kept London homes.</p>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="landlords.html">Landlords</a>
+        <a href="lettings.html">Lettings</a>
+        <a href="management.html">Management</a>
+        <a href="about.html">About</a>
+        <a href="enquire.html">Enquire</a>
+      </div>
+      <div>
+        <p>London<br />Private enquiries handled personally</p>
+        <p><a href="enquire.html">Arrange an enquiry</a></p>
+      </div>
     </footer>
+
   </div>
   <script src="script.js"></script>
 </body>
