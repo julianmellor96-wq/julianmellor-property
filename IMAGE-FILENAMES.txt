@@ -1,0 +1,6 @@
+Add these image files here:
+- hero-london-property.jpg
+- lettings-interior.jpg
+- gallery-property-1.jpg
+- gallery-property-2.jpg
+- gallery-property-3.jpg
