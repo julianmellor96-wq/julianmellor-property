@@ -1,32 +1,82 @@
-JULIAN MELLOR SITE REBUILD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Management | Julian Mellor</title>
+  <meta name="description" content="Quiet property management for well-kept London homes." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Julian Mellor</span>
+        <span class="brand-sub">Private Property Management & Lettings</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="landlords.html">Landlords</a>
+        <a href="lettings.html">Lettings</a>
+        <a href="management.html">Management</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn btn-olive">Enquire</a>
+      </nav>
+    </div>
+  </header>
 
-Files included:
-- index.html
-- landlords.html
-- lettings.html
-- management.html
-- about.html
-- contact.html
-- style.css
+  <main class="page-hero">
+    <div class="container page-shell">
+      <section class="page-panel">
+        <p class="eyebrow">Property management</p>
+        <h1>Quiet oversight, properly handled.</h1>
+        <div class="page-copy">
+          
+<p>Property management should reduce friction, not create it. Our approach is built around consistency, practical coordination and respect for the home itself.</p>
+<p>The objective is straightforward: keep standards up, keep communication clear and make sure day-to-day matters are handled properly.</p>
 
-Image folder:
-- images/hero-london-property.jpg
-- images/lettings-interior.jpg
-- images/gallery-property-1.jpg
-- images/gallery-property-2.jpg
-- images/gallery-property-3.jpg
+        </div>
+      </section>
 
-Optional:
-- images/management-london-home.jpg (not required in current build)
+      
+<section class="content-grid-2">
+  <article class="content-card">
+    <h3>Management focus</h3>
+    <ul>
+      <li>Day-to-day tenancy administration</li>
+      <li>Routine issue coordination</li>
+      <li>Clear landlord updates</li>
+      <li>Steady oversight of the property</li>
+    </ul>
+  </article>
+  <article class="content-card">
+    <h3>Principles</h3>
+    <ul>
+      <li>Clarity over confusion</li>
+      <li>Standards over shortcuts</li>
+      <li>Consistency over noise</li>
+      <li>Care over volume</li>
+    </ul>
+  </article>
+</section>
 
-What to do:
-1. Delete your old website files if you want a clean reset.
-2. Upload these new files.
-3. Create an images folder.
-4. Add your clean photos with the exact file names above.
-5. Redeploy in Vercel.
+    </div>
+  </main>
 
-Important:
-- Use crisp images with no text printed on them.
-- Replace the placeholder phone number in contact.html.
-- Keep all files in the root, with the images inside /images.
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Julian Mellor</strong><br />
+        <span>Private Property Management & Lettings</span>
+      </div>
+      <div class="footer-links">
+        <a href="landlords.html">Landlords</a>
+        <a href="lettings.html">Lettings</a>
+        <a href="management.html">Management</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Enquire</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
